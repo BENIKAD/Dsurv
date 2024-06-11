@@ -67,7 +67,8 @@ dfx canister --network ic id token
 LIVE_CANISTER_KEY="principal \"$( \dfx canister --network ic id token )\""
 ```
 
-4. Check that it worked:
+4. Check that it worked:![Screenshot (1738)](https://github.com/BENIKAD/Dsurv/assets/51761431/b5d94586-976d-4e44-b053-f9bb9a385f54)
+
 ```
 echo $LIVE_CANISTER_KEY
 ```
